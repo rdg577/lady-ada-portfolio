@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section{
+    background-color: rgb(47, 38, 38);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 80%;
+    margin: 10rem auto 0 auto;
+}
+
+.section img {
+    height: 500px;
+    }
+
+.section h1{
+    margin: 0;
+    color: rgb(137, 233, 27);
+}
+
+.section p{
+    color: blanchedalmond;
+    margin: left;
+}
+
+@media screen and (max-width: 768px) {
+    .section {flex-direction: column-reverse;}
+}
+    
+
