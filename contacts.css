@@ -1,10 +1,12 @@
 *{
     box-sizing: border-box;
 }
-body {
-    b
+
+body, html {
+    
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
     
 }
 
@@ -20,6 +22,8 @@ h1 {
 }
 
 p {
+    padding: 20px;
+    width: 80%;
     color: blanchedalmond;
     text-align: justify;
     line-height: 1.5;
@@ -27,8 +31,9 @@ p {
 
 img {
     border-radius: 50%;
-    width: 300px;
+    width: 250px;
     display: block;
     margin-left:  auto;
     margin-right: auto;
+    
 }
