@@ -33,6 +33,11 @@ body {
 .photo img{
     height: 300px;
     border: 3px solid rgb(221, 85, 236);
+    transition: transform 2s;
+}
+
+.photo:hover img {
+    transform: scale(1.5);
 }
 
 @media screen and (max-width: 768px) {
