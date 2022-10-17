@@ -1,21 +1,19 @@
-*{
-    box-sizing: border-box;
-}
 
-body, html {
+
+/* body, html {
     
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     
-}
+} */
 
-div {
-    background-color: rgb(47, 38, 38);
+/* div {
+    
     padding: 50px;
     width: 80%;
     margin: 10rem auto 0 auto;
-}
+} */
 h1 {
     text-align: center;
     color:rgb(137, 233, 27);
